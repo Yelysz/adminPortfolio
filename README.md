@@ -1,8 +1,24 @@
-# React + Vite
+# Administración de Portafolio Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido(a) al Panel de Administración
+Este panel te permite gestionar y personalizar tu portafolio web de manera eficiente y sencilla. Aquí encontrarás todas las herramientas necesarias para mantener tu portafolio actualizado y atractivo.
 
-Currently, two official plugins are available:
+Funcionalidades Principales
+Gestión de Proyectos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Añadir Nuevo Proyecto: Completa el formulario con los detalles del proyecto, incluyendo título, descripción, tecnologías utilizadas, y sube imágenes relevantes.
+- Editar Proyecto Existente: Modifica cualquier detalle de tus proyectos actuales, actualiza imágenes o cambia las tecnologías listadas.
+- Eliminar Proyecto: Elimina proyectos que ya no deseas mostrar en tu portafolio.
+
+Gestión de Imágenes
+
+- Subir Imágenes: Sube imágenes de alta calidad para mostrar en tus proyectos. Todas las imágenes se almacenan en Cloudinary para una carga rápida y eficiente.
+- Actualizar Imágenes: Reemplaza imágenes existentes por versiones más nuevas o de mejor calidad.
+- Eliminar Imágenes: Borra imágenes que ya no son necesarias, manteniendo tu almacenamiento organizado.
+
+
+- Temas y Estilos: Cambia entre diferentes temas y estilos para personalizar la apariencia de tu portafolio. Ajusta colores, tipografías y otros elementos visuales para que se adapten a tu marca personal.
+- Configuración de Navbar: Personaliza los elementos del menú de navegación para asegurar que los visitantes puedan encontrar fácilmente la información que buscan.
+
+Si tienes alguna pregunta o necesitas asistencia, por favor contacta al soporte técnico a través del correo de soporte.
+anyelystorres17@gmail.com
