@@ -1,0 +1,375 @@
+.container-project {
+    width: 85vw;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.table-responsive::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    /* Ancho del scroll */
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: #f86328;
+    border-radius: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #05001d;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+.table-responsive ul {
+    list-style: none;
+
+}
+
+.container-btn-create {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 5px 0px 15px;
+}
+
+.btn-create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: #f86328;
+    width: 200px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.btn-create .icon{
+    margin-bottom: 1.5px;
+}
+
+.btn-create:hover {
+    background-color: #05001d;
+}
+
+
+.th-no {
+    width: 30px;
+}
+
+.td-title div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.td-title img {
+    display: block;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid #f86328;
+}
+
+.th-title {
+    width: 200px;
+}
+
+.td-tags div {
+    display: flex;
+    justify-content: center;
+}
+
+.td-tags li {
+    background-color: transparent;
+    margin: 10px 0px;
+    color: #05001d;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #f86328, 0 1px 3px #f86328;
+    border: 1px solid #f86328;
+    transition: all .4s ease;
+
+}
+
+.td-tags li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.td-link nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.td-link nav a {
+    background-color: transparent;
+    box-shadow: 0 4px 6px #f86328, 0 1px 3px #f86328;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    color: #05001d;
+    transition: all .4s ease;
+}
+
+
+.td-link nav a:hover {
+    background-color: #f86328;
+    color: #fff;
+}
+
+
+.actions nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.actions {
+    width: 80px;
+}
+
+.actions nav button,
+.actions nav a {
+    padding: 5px;
+    font-size: 20px;
+    color: #f86328;
+    transition: all .5s ease;
+}
+
+.actions nav button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.actions nav button:hover {
+    color: red;
+}
+
+.actions nav a:hover {
+    color: rgb(255, 188, 87);
+}
+
+.alert {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+@media (max-width: 768px) {
+
+    th,
+    td {
+        border: none;
+        padding: 8px;
+        text-align: left;
+    }
+
+    tr {
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+
+/* Create project............................................................................ */
+/* Update project............................................................................ */
+
+.container-form {
+    margin: 20px 0px;
+    width: 85vw;
+    color: #05001d;
+}
+
+.container-form label {
+    font-size: 18px;
+}
+
+.container-form input,
+.container-form textarea {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0px;
+    width: 50%;
+    border: 2px solid #f86328;
+    font-family: Poppins, sans-serif !important;
+}
+
+.container-form textarea {
+    height: 200px;
+}
+
+.container-form .btn-tags {
+    padding: 9px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #f86328;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+
+}
+
+.tags-input input {
+    width: 44%;
+}
+
+.container-form input:focus,
+.container-form textarea:focus {
+    border: 2px solid #e2d3cc;
+    outline: none;/
+}
+
+.inp-container button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+.tags-container {
+    display: flex;
+    margin: 10px 0px;
+    gap: 5px;
+}
+
+.tag-span {
+    border: 2px solid #f86328;
+    margin: 0px 2px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: #f5f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px #f86328, 0 1px 3px #f86328;
+}
+
+
+.tag-span button {
+    margin: 5px;
+    background-color: #f86328;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tag-span button:hover{
+    background-color: #05001d;
+}
+
+
+input[type="file"] {
+    border: 2px dashed #f86328;
+}
+
+input[type="file"]::file-selector-button {
+    font-family: Poppins, sans-serif !important;
+    border: none;
+    padding: 0.5em 0.9em;
+    border-radius: 0.2em;
+    background-color: #f86328;
+    transition: 1s;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #05001d;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 51.5%;
+    gap: 10px;
+}
+
+.container-form .btn-container button {
+    background-color: #f86328;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container-form .btn-container button:hover{
+    background-color: #05001d;
+}
+
+.container-form a {
+    font-size: 15px;
+}
+
+.container-form a:hover{
+    color: #f86328;
+}
